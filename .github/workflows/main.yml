@@ -5,4 +5,3 @@ on: [push]
 jobs:
   hello:
     uses: nminhquang/test123/.github/workflows/main.yml@main
-
