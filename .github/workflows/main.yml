@@ -4,4 +4,6 @@ on: [push]
 
 jobs:
   hello:
-    uses: nminhquang/test123/.github/workflows/main.yml@main
+    uses: nminhquang/test123/.github/workflows/main_handler.yml@main
+    with:
+      repo_name: ${{ github.repository }}
